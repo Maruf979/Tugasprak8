@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Film</title>
+    <link rel="stylesheet" href="prak7style.css">
+</head>
+<body>
+    <h1>Daftar Film</h1>
+    <h2>Tambah Film</h2>
+    <form id="form-film">
+        <input type="text" id="judul" placeholder="Judul" required>
+        <input type="text" id="deskripsi" placeholder="Deskripsi" required>
+        <input type="text" id="kategori" placeholder="Kategori" required>
+        <input type="text" id="gambar" placeholder="URL gambar" required>
+        <input type="number" id="rating" placeholder="Rating" min="1" max="10">
+        <input type="number" id="tahun-terbit" placeholder="Tahun Terbit">
+        <input type="text" id="sutradara" placeholder="Sutradara">
+        <button type="submit">Tambah Film</button>
+    </form>
+    <input type="text" id="search-film" placeholder="Cari film...">  <div id="daftar-film"></div>
+    <script src="prak7js.js"></script>
+</body>
+</html>
